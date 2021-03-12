@@ -1,0 +1,40 @@
+{
+  "name": "seoaudit",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./src/seoaudit.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongthanhtungitvn/seoaudit.git"
+  },
+  "keywords": [
+    "seo"
+  ],
+  "author": "Truong Thanh Tung <truongthanhtungitvn@gmail.com>",
+  "license": "ISC",
+  "bin":{
+    "seoaudit": "./src/seoaudit-cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/truongthanhtungitvn/seoaudit/issues"
+  },
+  "homepage": "https://github.com/truongthanhtungitvn/seoaudit#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "mocha": "^5.0.5"
+  },
+  "dependencies": {
+    "assume": "^2.0.1",
+    "assumejs": "^0.2.3",
+    "chai": "^4.1.2",
+    "chai-subset": "^1.6.0",
+    "cheerio": "^1.0.0-rc.2",
+    "htmlparser": "^1.7.7",
+    "lodash": "^4.17.5",
+    "sprintf-js": "^1.1.1",
+    "yargs": "^11.0.0"
+  }
+}
